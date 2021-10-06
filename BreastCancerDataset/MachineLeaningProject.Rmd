@@ -57,9 +57,8 @@ library(ROCR)
 # 30개의 설명변수를 사용하여 유방암 악성(Malignant)에 속할 0~1 사이의 확률값을 계산하여 진단하는 분류/예측 모델을 만들어보겠습니다.
 
 ```{r cars}
-data <- read.csv("C:/Users/inp032/Desktop/회사자료/Ai 프로젝트/data.csv")
-custom_data <- read.csv("C:/Users/inp032/Desktop/회사자료/Ai 프로젝트/perfectdata.csv")
-df <- read.csv("C:/Users/inp032/Desktop/회사자료/Ai 프로젝트/data.csv")
+data <- read.csv(file.choose())
+
 
 data
 head(data)
