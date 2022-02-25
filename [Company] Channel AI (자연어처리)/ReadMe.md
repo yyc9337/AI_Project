@@ -1,4 +1,4 @@
-##  폴더 
+## Data 폴더 
 - data_preprocess : dataset안에 있는 데이터들을 전처리 하여 data_preprocess 안에 저장 
 - dataset : 원시 데이터이외에도 data_process, Experiment에서 파생된 데이터 들을 저장
 
